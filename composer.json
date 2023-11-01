@@ -1,0 +1,22 @@
+{
+  "name": "tiosilvah/cnpj-receitaws",
+  "description": "Biblioteca para buscar informações de um cnpj através receitaws.com.br",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Israel C A Silva",
+      "email": "israelsilvainveste@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">7.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "tiosilvah\\":"src/"
+    }
+  }
+}
