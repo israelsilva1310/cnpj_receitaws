@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'tiosilvah/cnpj-receitaws',
+        'name' => 'israelsilva1310/cnpj-receitaws',
         'pretty_version' => '1.0.0',
         'version' => '1.0.0.0',
         'reference' => NULL,
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'tiosilvah/cnpj-receitaws' => array(
+        'israelsilva1310/cnpj-receitaws' => array(
             'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',
             'reference' => NULL,

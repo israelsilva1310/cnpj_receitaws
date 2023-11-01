@@ -1,5 +1,5 @@
 {
-  "name": "tiosilvah/cnpj-receitaws",
+  "name": "israelsilva1310/cnpj-receitaws",
   "description": "Biblioteca para buscar informações de um cnpj através receitaws.com.br",
   "type": "library",
   "license": "MIT",
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": ">7.0"
+    "php": ">5.6"
   },
   "minimum-stability": "dev",
   "autoload": {
