@@ -20,6 +20,16 @@ class ComposerStaticInit3bd56dba8032903d3f63564df1ac3123
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'C' => 
+        array (
+            'Curl' => 
+            array (
+                0 => __DIR__ . '/..' . '/curl/curl/src',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
@@ -29,6 +39,7 @@ class ComposerStaticInit3bd56dba8032903d3f63564df1ac3123
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit3bd56dba8032903d3f63564df1ac3123::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit3bd56dba8032903d3f63564df1ac3123::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit3bd56dba8032903d3f63564df1ac3123::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit3bd56dba8032903d3f63564df1ac3123::$classMap;
 
         }, null, ClassLoader::class);
